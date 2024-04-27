@@ -1,0 +1,142 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+}
+
+.service {
+  margin-top: 20px;
+}
+
+.cta-button {
+  background-color: #ff5722;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero {
+  background: url('path_to_your_image.jpg') no-repeat center center/cover;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+#about,
+#services,
+#testimonials,
+#contact {
+  margin: 20px auto;
+  width: 80%;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service {
+  margin-top: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Styles for all headers - modify as needed */
+h1,
+h2,
+h3 {
+  color: #4A90E2;
+  /* Example color: a nice shade of blue */
+}
+
+/* Alternatively, you can style each header type individually if needed */
+h1 {
+  color: #4A90E2;
+  /* Change to your preferred color */
+}
+
+h2 {
+  color: #4A90E2;
+  /* Change to your preferred color */
+}
+
+h3 {
+  color: #4A90E2;
+  /* Change to your preferred color */
+}
